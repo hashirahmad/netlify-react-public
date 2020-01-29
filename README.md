@@ -22,7 +22,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
  1. Created `components` folder<br>
     Cleaning up so that `lambda` functions are located seperateley<br>
     Cleaning up of `App.js`<br>
- 2. Second task
+ 2. Added basic routing using `Reach Router`<br>
+    Setup the `router`
  3. Third task
  4. etc . . .
 
