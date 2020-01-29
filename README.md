@@ -19,7 +19,9 @@ I do not wish at the present moment to reveal the source code for personal reaso
 
 ## 29-01-2019
 
- 1. First task
+ 1. Created `components` folder
+    Cleaning up so that `lambda` functions are located seperateley
+    Cleaning up of `App.js`
  2. Second task
  3. Third task
  4. etc . . .
