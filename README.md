@@ -16,6 +16,13 @@ I do not wish at the present moment to reveal the source code for personal reaso
  2. Second task
  3. Third task
  4. etc . . .
+ 
+## 31-01-2019
+
+ 1. Material-UI integration<br>
+    Basically working - just checking it 
+ 2. Added basic routing using `Reach Router`<br>
+    Setup the `router`
 
 ## 29-01-2019
 
@@ -24,7 +31,5 @@ I do not wish at the present moment to reveal the source code for personal reaso
     Cleaning up of `App.js`<br>
  2. Added basic routing using `Reach Router`<br>
     Setup the `router`
- 3. Third task
- 4. etc . . .
 
 
