@@ -16,15 +16,26 @@ I do not wish at the present moment to reveal the source code for personal reaso
  2. Second task
  3. Third task
  4. etc . . .
- 
-## 31-01-2019
+
+## 05-01-2020
+
+1. Integrated Material-UI `BottomNavigation` with `reach-router` using custom hybrid solution
+2. Fixed Material-UI `BottomNavigation` back button not changing Material-UI `BottomNavigation` buttons
+3. Added `routes.js` file for all the routes for the main control
+4. Added function in `routes.js` `routes.routing()` function which deals with routing
+5. Added 28 different gradient themes
+6. Integrated Material-UI `BottomNavigation` with gradient themes
+7. Added `default` route component for common 404 error pages etc
+8. Changed overall structure for cleaner and simple structure
+
+## 31-01-2020
 
  1. Material-UI integration<br>
     Basically working - just checking it 
  2. Added basic routing using `Reach Router`<br>
     Setup the `router`
 
-## 29-01-2019
+## 29-01-2020
 
  1. Created `components` folder<br>
     Cleaning up so that `lambda` functions are located seperateley<br>
