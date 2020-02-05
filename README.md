@@ -27,6 +27,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
 6. Integrated Material-UI `BottomNavigation` with gradient themes
 7. Added `default` route component for common 404 error pages etc
 8. Changed overall structure for cleaner and simple structure
+9. Changed `location` to `window.location` as it causes build error on netlify deploy <br>
+        Still do not understand how it works on `localhost` but not when `deployed`
 
 ## 31-01-2020
 
