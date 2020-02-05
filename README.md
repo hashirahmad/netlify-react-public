@@ -29,6 +29,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 8. Changed overall structure for cleaner and simple structure
 9. Changed `location` to `window.location` as it causes build error on netlify deploy <br>
         Still do not understand how it works on `localhost` but not when `deployed`
+10. Accidentally disabled `history` which disabled going back so now re-enabling it to allow user going back using `back` button
 
 ## 31-01-2020
 
