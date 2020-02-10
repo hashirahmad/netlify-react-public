@@ -17,16 +17,20 @@ I do not wish at the present moment to reveal the source code for personal reaso
  3. Third task
  4. etc . . .
 
+## 10-01-2010
+
+1. Fixed a bug that broken `live` production
+
 ## 09-01-2010
 
-1. Changing theme on the fly works! - no need to reload page
+1. Changing theme `on the fly` works! - no need to `reload` page
 2. Theme saving also works - once saved always saved until changed
-3. Nested routing is working as expected - not in the way I thought but outcome is still the same
-4. Bottom App Bar is more like translucent in line with the overall theme
-5. Added Utils for simplified development
-6. Added CMS via JSON for easy changes to actual content
-7. This is also to keept content strictly separate from logic
-8. Theme changing is simplified or the apprach is
+3. `Nested routing` is working as expected - not in the way I thought but outcome is still the same
+4. `Bottom App Bar` is more like translucent in line with the overall theme
+5. Added `Utils` for simplified development
+6. Added `CMS` via `JSON` for easy changes to actual content
+    6.1. This is also to keept content strictly separate from `logic`
+7. Theme changing is simplified or the apprach is
 
 ## 05-01-2020
 
