@@ -17,6 +17,10 @@ I do not wish at the present moment to reveal the source code for personal reaso
  3. Third task
  4. etc . . .
 
+## 11-01-2010
+
+1. Added the ability to show `labels` for `BottomNavigation` for internal purposes
+
 ## 10-01-2010
 
 1. Fixed a bug that broken `live` production
