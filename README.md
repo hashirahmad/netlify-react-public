@@ -20,6 +20,9 @@ I do not wish at the present moment to reveal the source code for personal reaso
 ## 11-01-2010
 
 1. Added the ability to show `labels` for `BottomNavigation` for internal purposes
+2. Fixed some potential spelling `bugs` or misleading `variables`
+3. Added initial progress bar for `AJAX` progress and anything else it may be useful for
+4. Added `safeColor` function that will return safe random color which will not be innappropriate for the `set` theme
 
 ## 10-01-2010
 
