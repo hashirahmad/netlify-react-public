@@ -17,6 +17,10 @@ I do not wish at the present moment to reveal the source code for personal reaso
  3. Third task
  4. etc . . .
 
+## 12-01-2010
+
+1. Added linear progress bar and its `API` for easy control of `on` and `off`
+
 ## 11-01-2010
 
 1. Added the ability to show `labels` for `BottomNavigation` for internal purposes
