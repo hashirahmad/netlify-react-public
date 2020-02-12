@@ -20,6 +20,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
 ## 12-01-2010
 
 1. Added linear progress bar and its `API` for easy control of `on` and `off`
+2. Fixed `gradient animation`
+   Was previously broken but was not noticed
 
 ## 11-01-2010
 
