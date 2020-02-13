@@ -26,6 +26,11 @@ I do not wish at the present moment to reveal the source code for personal reaso
 5. `ComplexCard`'s `avatarInitials` removed - it is now automatically generted from `title`
 6. Some refinments added
 7. `CSS` added for custom styling and easy to change in regards to Chrome `Developer Tools`
+8. Enhanced `Card`'s `CSS` so it does not get stretched up depending on the one of the children taking more.
+   <br>It is still not fully Google Images like but a little better. Far from it.
+9.
+10.
+11.
 
 ## 12-01-2010
 
