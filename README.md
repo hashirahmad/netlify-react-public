@@ -33,6 +33,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
 11. Added `margin-right` to `card`'s action buttons so that it does not look squished when there is more than 1 button. 
 12. Added custom `Typography` components
 13. Added `CustomTypography` component for easy change of fonts for certain type of components
+14. Changed `Signature` component with different `Charmonman` font
+
 
 ## 12-01-2010
 
