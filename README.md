@@ -21,6 +21,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 
 1. Added material design `icon` support for `SimpleCard` component
 2. Added "outline" `variance` to `card` button
+3. Benefiting from `icon` support and setting icons dynmaically
 
 ## 12-01-2010
 
