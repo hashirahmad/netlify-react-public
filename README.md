@@ -23,6 +23,9 @@ I do not wish at the present moment to reveal the source code for personal reaso
 2. Added "outline" `variance` to `card` button
 3. Benefiting from `icon` support and setting icons dynmaically
 4. Added a material design `ComplexCard` component with fully dynamic anatomy
+5. `ComplexCard`'s `avatarInitials` removed - it is now automatically generted from `title`
+6. Some refinments added
+7. `CSS` added for custom styling and easy to change in regards to Chrome `Developer Tools`
 
 ## 12-01-2010
 
