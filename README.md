@@ -17,6 +17,11 @@ I do not wish at the present moment to reveal the source code for personal reaso
  3. Third task
  4. etc . . .
 
+## 13-01-2010
+
+1. Added material design `icon` support for `SimpleCard` component
+2. Added "outline" `variance` to `card` button
+
 ## 12-01-2010
 
 1. Added linear progress bar and its `API` for easy control of `on` and `off`
