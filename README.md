@@ -28,8 +28,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
 7. `CSS` added for custom styling and easy to change in regards to Chrome `Developer Tools`
 8. Enhanced `Card`'s `CSS` so it does not get stretched up depending on the one of the children taking more.
    <br>It is still not fully Google Images like but a little better. Far from it.
-9.
-10.
+9. Made card more `rounded` for an elegant look and feel
+10. `ComplexCard`'s image is now `rounded` too which is debatable whether it looks pleasant or just to me
 11.
 
 ## 12-01-2010
