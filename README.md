@@ -33,6 +33,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 10. `SimpleCard` expects now an array of plain `actions` as oppose to returning a JSON object of actions, this is now done from inside       `SimpleCard`. This way the main control can be changed from within `SimpleCard` in near future
 11. `CMS` inside `More` component has been renamed to `MoreCMS` for easiser searching from within `vscode`
     Simplification of syntax to `SimpleCard` according to recent changes made to `SimpleCard`
+12. Added `expandButton` property to  `ComplexCard` component so that it can be easily used to expand card but using some button text -       This effectively means expand button is duplicated but one with a text as not everyone may be used to expanding it or may not know       what expansion content contains. In that situation having a button text is very useful.
 
 
 ## 13-01-2010
