@@ -25,6 +25,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
 3. `Petit Formal Script` font removed
 4. `Beth Ellan` font removed
 5. 2 new fonts added: `Amatic SC`, `Bungee Shade` - both these are `display` fonts for drawing special attention
+6. `ComplexCard` component now support custom `typography` for main text content
+
 
 ## 13-01-2010
 
