@@ -30,6 +30,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 8. `Utils`'s `getCardActions` now expects an array rather than entire `card`<br>
    This means `getCardActions` can be envoked from `SimpleCard` internally for simplification purposes
 9. `BottomAppBar`'s gradient transparency is increased to 70% from 60%
+10. `SimpleCard` expects now an array of plain `actions` as oppose to returning a JSON object of actions, this is now done from inside       `SimpleCard`. This way the main control can be changed from within `SimpleCard` in near future
 
 
 ## 13-01-2010
