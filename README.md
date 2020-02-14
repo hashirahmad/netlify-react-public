@@ -37,6 +37,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 13. `ComplexCard`'s `imageURL` now expects only the file name, no longer a `path` as this is centrally done from within `ComplexCard` for     simplification and centralised purposes.
 14. Added `margin` 10 to `ComplexCard` so that when used in list - they have some border and distance  between each other
     Same behaviour as `SimpleCard`
+15. Changed `text-align` to left side for expansion text for `ComplexCard` component 
 
 
 ## 13-01-2010
