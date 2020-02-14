@@ -35,6 +35,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
     Simplification of syntax to `SimpleCard` according to recent changes made to `SimpleCard`
 12. Added `expandButton` property to  `ComplexCard` component so that it can be easily used to expand card but using some button text -       This effectively means expand button is duplicated but one with a text as not everyone may be used to expanding it or may not know       what expansion content contains. In that situation having a button text is very useful.
 13. `ComplexCard`'s `imageURL` now expects only the file name, no longer a `path` as this is centrally done from within `ComplexCard` for     simplification and centralised purposes.
+14. Added `margin` 10 to `ComplexCard` so that when used in list - they have some border and distance  between each other
+    Same behaviour as `SimpleCard`
 
 
 ## 13-01-2010
