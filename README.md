@@ -31,6 +31,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
    This means `getCardActions` can be envoked from `SimpleCard` internally for simplification purposes
 9. `BottomAppBar`'s gradient transparency is increased to 70% from 60%
 10. `SimpleCard` expects now an array of plain `actions` as oppose to returning a JSON object of actions, this is now done from inside       `SimpleCard`. This way the main control can be changed from within `SimpleCard` in near future
+11. `CMS` inside `More` component has been renamed to `MoreCMS` for easiser searching from within `vscode`
+    Simplification of syntax to `SimpleCard` according to recent changes made to `SimpleCard`
 
 
 ## 13-01-2010
