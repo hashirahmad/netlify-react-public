@@ -38,6 +38,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
 14. Added `margin` 10 to `ComplexCard` so that when used in list - they have some border and distance  between each other
     Same behaviour as `SimpleCard`
 15. Changed `text-align` to left side for expansion text for `ComplexCard` component 
+16. Added `CMS` for Home screen
+17. Added initial profile card for main home screen
 
 
 ## 13-01-2010
