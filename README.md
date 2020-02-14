@@ -34,6 +34,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 11. `CMS` inside `More` component has been renamed to `MoreCMS` for easiser searching from within `vscode`
     Simplification of syntax to `SimpleCard` according to recent changes made to `SimpleCard`
 12. Added `expandButton` property to  `ComplexCard` component so that it can be easily used to expand card but using some button text -       This effectively means expand button is duplicated but one with a text as not everyone may be used to expanding it or may not know       what expansion content contains. In that situation having a button text is very useful.
+13. `ComplexCard`'s `imageURL` now expects only the file name, no longer a `path` as this is centrally done from within `ComplexCard` for     simplification and centralised purposes.
 
 
 ## 13-01-2010
