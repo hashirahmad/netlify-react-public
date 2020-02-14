@@ -29,6 +29,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 7. `Bismillah` now no longer `bold`
 8. `Utils`'s `getCardActions` now expects an array rather than entire `card`<br>
    This means `getCardActions` can be envoked from `SimpleCard` internally for simplification purposes
+9. `BottomAppBar`'s gradient transparency is increased to 70% from 60%
 
 
 ## 13-01-2010
