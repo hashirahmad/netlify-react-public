@@ -20,6 +20,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
 ## 14-01-2010
 
 1. Added `Beth Ellen` and `Reem Kufi` fonts and removed `Mr Dafoe`
+2. Added `Bismillah` component<br>
+   Basic philosophy of putting God first!
 
 ## 13-01-2010
 
