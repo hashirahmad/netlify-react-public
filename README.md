@@ -27,6 +27,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
 5. 2 new fonts added: `Amatic SC`, `Bungee Shade` - both these are `display` fonts for drawing special attention
 6. `ComplexCard` component now support custom `typography` for main text content
 7. `Bismillah` now no longer `bold`
+8. `Utils`'s `getCardActions` now expects an array rather than entire `card`<br>
+   This means `getCardActions` can be envoked from `SimpleCard` internally for simplification purposes
 
 
 ## 13-01-2010
