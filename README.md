@@ -17,6 +17,12 @@ I do not wish at the present moment to reveal the source code for personal reaso
  3. Third task
  4. etc . . .
 
+## 15-01-2010
+
+1. `ComplexCard` now support `HTML` formatting for easy styling of content
+2. `ComplexCard` now supports line breaks based on fullstop `.` for easier reading style 
+3. `CMS` text can be set as simple text or in an array. `ComplexCard` deals with it appropriatley
+
 ## 14-01-2010
 
 1. Added `Beth Ellen` and `Reem Kufi` fonts and removed `Mr Dafoe`
