@@ -24,6 +24,13 @@ I do not wish at the present moment to reveal the source code for personal reaso
 3. `CMS` text can be set as simple text or in an array. `ComplexCard` deals with it appropriatley
 4. `CustomTypography` also supports `HTML` formatting just as `ComplexCard` 
 5. Line breaks are also supported for `CustomTypography` and `CMS` content for easy as array or text either way
+6. 5 new `classes` added for formatting of text and ease of convinience!
+       `highlight`
+       `quote`
+       `bold`
+       `italics`
+       `underline`
+7. 
 
 ## 14-01-2010
 
