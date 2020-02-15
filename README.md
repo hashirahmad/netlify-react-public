@@ -22,6 +22,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
 1. `ComplexCard` now support `HTML` formatting for easy styling of content
 2. `ComplexCard` now supports line breaks based on fullstop `.` for easier reading style 
 3. `CMS` text can be set as simple text or in an array. `ComplexCard` deals with it appropriatley
+4. `CustomTypography` also supports `HTML` formatting just as `ComplexCard` 
+5. Line breaks are also supported for `CustomTypography` and `CMS` content for easy as array or text either way
 
 ## 14-01-2010
 
