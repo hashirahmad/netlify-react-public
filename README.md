@@ -20,7 +20,10 @@ I do not wish at the present moment to reveal the source code for personal reaso
 ## 16-02-2020
 1. Fixed a bug in `ComplexCard` and `CustomTypography` where if text is
    not in array it would not be `parsed` for HTML.
-2. 
+2. CSS classes `highlight` improved
+3. `border` new `class` added.
+4. `underline` now uses `border-bottom` for superior style than `font-style: underline`
+5. `italics` removed
 
 ## 15-02-2020
 
