@@ -24,6 +24,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 3. `border` new `class` added.
 4. `underline` now uses `border-bottom` for superior style than `font-style: underline`
 5. `italics` removed
+6. Home `CMS` now benefits from new changes built for formatting of content
 
 ## 15-02-2020
 
