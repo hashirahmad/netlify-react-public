@@ -17,7 +17,12 @@ I do not wish at the present moment to reveal the source code for personal reaso
  3. Third task
  4. etc . . .
 
-## 15-01-2010
+##16-02-2020
+1. Fixed a bug in `ComplexCard` and `CustomTypography` where if text is
+   not in array it would not be `parsed` for HTML.
+2. 
+
+## 15-02-2020
 
 1. `ComplexCard` now support `HTML` formatting for easy styling of content
 2. `ComplexCard` now supports line breaks based on fullstop `.` for easier reading style 
@@ -32,7 +37,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
        `underline`<br>
 7. 
 
-## 14-01-2010
+## 14-02-2020
 
 1. Added `Beth Ellen` and `Reem Kufi` fonts and removed `Mr Dafoe`
 2. Added `Bismillah` component<br>
@@ -57,7 +62,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 17. Added initial profile card for main home screen
 
 
-## 13-01-2010
+## 13-02-2020
 
 1. Added material design `icon` support for `SimpleCard` component
 2. Added "outline" `variance` to `card` button
@@ -76,24 +81,24 @@ I do not wish at the present moment to reveal the source code for personal reaso
 14. Changed `Signature` component with different `Charmonman` font
 
 
-## 12-01-2010
+## 12-02-2020
 
 1. Added linear progress bar and its `API` for easy control of `on` and `off`
 2. Fixed `gradient animation` <br>
    Was previously broken but was not noticed
 
-## 11-01-2010
+## 11-02-2020
 
 1. Added the ability to show `labels` for `BottomNavigation` for internal purposes
 2. Fixed some potential spelling `bugs` or misleading `variables`
 3. Added initial progress bar for `AJAX` progress and anything else it may be useful for
 4. Added `safeColor` function that will return safe random color which will not be innappropriate for the `set` theme
 
-## 10-01-2010
+## 10-02-2020
 
 1. Fixed a bug that broken `live` production
 
-## 09-01-2010
+## 09-02-2020
 
 1. Changing theme `on the fly` works! - no need to `reload` page
 2. Theme saving also works - once saved always saved until changed
@@ -104,7 +109,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
     6.1. This is also to keept content strictly separate from `logic`
 7. Theme changing is simplified or the apprach is
 
-## 05-01-2020
+## 05-02-2020
 
 1. Integrated Material-UI `BottomNavigation` with `reach-router` using custom hybrid solution
 2. Fixed Material-UI `BottomNavigation` back button not changing Material-UI `BottomNavigation` buttons
