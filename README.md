@@ -17,7 +17,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
  3. Third task
  4. etc . . .
 
-##16-02-2020
+## 16-02-2020
 1. Fixed a bug in `ComplexCard` and `CustomTypography` where if text is
    not in array it would not be `parsed` for HTML.
 2. 
