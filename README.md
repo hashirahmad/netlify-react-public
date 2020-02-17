@@ -17,6 +17,11 @@ I do not wish at the present moment to reveal the source code for personal reaso
  3. Third task
  4. etc . . .
 
+## 17-02-2020
+1. `TypeWriter` component added for typing animation effect
+2. Full `HTML` formatting supported
+3. Customizable in terms of delaying between each line
+
 ## 16-02-2020
 1. Fixed a bug in `ComplexCard` and `CustomTypography` where if text is
    not in array it would not be `parsed` for HTML.
