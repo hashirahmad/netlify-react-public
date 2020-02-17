@@ -23,6 +23,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
 3. Customizable in terms of delaying between each line
 4. `SimpleCard` allows customised `width` for ease or for bespoke situations
 5. `makeStyles` moved inside `function` to allow dynamic value setting
+6. Changed `routes`'s `route` property to `path`
+7. Changed structure to allow more central control from `routes` component
 
 ## 16-02-2020
 1. Fixed a bug in `ComplexCard` and `CustomTypography` where if text is
