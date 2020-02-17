@@ -26,6 +26,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
 6. Changed `routes`'s `route` property to `path`
 7. Changed structure to allow more central control from `routes` component
 8. Getting rid of `bull` • `variable` of `SimpleCard`
+9. Renaming of `routes`'s function `routing` to `getBottomAppBarPath` to avoid any confusion or as to what the function does
+10. Added `getPageTitle` to `routes` for getting screen's title based on the URL route
 
 ## 16-02-2020
 1. Fixed a bug in `ComplexCard` and `CustomTypography` where if text is
