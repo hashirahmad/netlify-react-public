@@ -23,6 +23,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 3. App's font sizes are now responsive
 4. `PageTitle` component added to main App which can effectively show each screen's page title based on the screen automatically without having to place  `PageTitle` on each screen.
 5. `Routes` screen name change to Welcome as oppose to boring "Home"
+6. Change to Home `CMS` - slight variation of words
 
 ## 17-02-2020
 1. `TypeWriter` component added for typing animation effect
