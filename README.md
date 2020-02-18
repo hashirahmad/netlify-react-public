@@ -28,6 +28,9 @@ I do not wish at the present moment to reveal the source code for personal reaso
 8. Initial `MyStory` screen added
 9. Initial navigation working
 10. Home `CMS` updated to all work
+11. Much improvements to `TypeWriter` component
+12. `CMS` `line` data can now be an `array` of simple text
+13. Backspacing had a bug  - it would calculate the number of backspaces based on HTML text which meant `<span>Hi</span>` would result into `15` backspaces as oppose to `2` 
 
 ## 17-02-2020
 1. `TypeWriter` component added for typing animation effect
