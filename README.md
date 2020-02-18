@@ -19,6 +19,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 
 ## 18-02-2020
 1. `safeColor` functionality removed from `Colors` due to `circular reference` 
+2. `safeColor` functionality added to `Themes` - it makes sense for it to be there
 
 ## 17-02-2020
 1. `TypeWriter` component added for typing animation effect
