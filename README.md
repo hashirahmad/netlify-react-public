@@ -17,6 +17,9 @@ I do not wish at the present moment to reveal the source code for personal reaso
  3. Third task
  4. etc . . .
 
+## 18-02-2020
+1. `safeColor` functionality removed from `Colors` due to `circular reference` 
+
 ## 17-02-2020
 1. `TypeWriter` component added for typing animation effect
 2. Full `HTML` formatting supported
