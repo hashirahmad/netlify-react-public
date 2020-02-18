@@ -25,6 +25,9 @@ I do not wish at the present moment to reveal the source code for personal reaso
 5. `Routes` screen name change to Welcome as oppose to boring "Home"
 6. Change to Home `CMS` - slight variation of words
 7. `ComplexCard`'s `actions` property now automatically enables navigating using `CMS`
+8. Initial `MyStory` screen added
+9. Initial navigation working
+10 Home `CMS` updated to all work
 
 ## 17-02-2020
 1. `TypeWriter` component added for typing animation effect
