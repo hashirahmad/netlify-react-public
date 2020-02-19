@@ -35,7 +35,9 @@ I do not wish at the present moment to reveal the source code for personal reaso
 15. Added `SimpleCardList` which is built on top of `SimpleCard` for listing an array of cards from `CMS`
 16. `More` screen now using `SimpleCardList` and debloating some of the code as a result of it.
 17. Added `standardizeText` function to `Utils` which simply parses the HTML if `text` contains marked up `HTML` and also `text` can be simple string or `array` of text
-18. This functionality was being duplicated at more than 3 different components hence the call to `standardize` it all in one place 
+18. This functionality was being duplicated at more than 3 different components hence the call to `standardize` it all in one place
+19. `SimpleCard`, `ComplexCard`, `CustomTypography` all now rely on `standardizeText` of `Utils` so that central functionality can be changed easily from one central place.
+20. `SimpleCard` now requires new property `noStandardizeText` which will not `standardize` it's `text` property. Main use case for this is if `text` is a `CustomTypography` component or other custom component in which case the `standardizing` will take place inside the component.
 
 ## 18-02-2020
 1. `safeColor` functionality removed from `Colors` due to `circular reference` 
