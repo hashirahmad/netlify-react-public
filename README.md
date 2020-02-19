@@ -27,6 +27,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 7. Added internal `random key` to `TypeWriter` as required by React
 8. Disabling rereading story feature as `react-typing-animation` needs to support `reset` functionality internally.
 9. Developing custom solution is not a high priority myself nor something of recommendation.
+10. Fixed a bug in `getBottomAppBarPath` in `Routes.js` where if a `route` is in "home" than return home icon
 
 ## 18-02-2020
 1. `safeColor` functionality removed from `Colors` due to `circular reference` 
