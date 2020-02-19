@@ -39,6 +39,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
 19. `SimpleCard`, `ComplexCard`, `CustomTypography` all now rely on `standardizeText` of `Utils` so that central functionality can be changed easily from one central place.
 20. `SimpleCard` now requires new property `noStandardizeText` which will not `standardize` it's `text` property. Main use case for this is if `text` is a `CustomTypography` component or other custom component in which case the `standardizing` will take place inside the component.
 21. `MyStory` benefiting from `noStandardizeText` property as previous update would have broken it.
+22. `Work Experience` screen updated with cards
+23. Added neccessary `CMS` to it.
 
 ## 18-02-2020
 1. `safeColor` functionality removed from `Colors` due to `circular reference` 
