@@ -32,6 +32,10 @@ I do not wish at the present moment to reveal the source code for personal reaso
 12. The merit of using `key={ Math.random() }` is debatable because it makes impossible to identify the react `element` using unique key for any purposes.
 13. Added `key={ Math.random() }` to `More.js` screen as I forgot to add.
 14. Changed `Projects` screen to `Work Experience` screen
+15. Added `SimpleCardList` which is built on top of `SimpleCard` for listing an array of cards from `CMS`
+16. `More` screen now using `SimpleCardList` and debloating some of the code as a result of it.
+17. Added `standardizeText` function to `Utils` which simply parses the HTML if `text` contains marked up `HTML` and also `text` can be simple string or `array` of text
+18. This functionality was being duplicated at more than 3 different components hence the call to `standardize` it all in one place 
 
 ## 18-02-2020
 1. `safeColor` functionality removed from `Colors` due to `circular reference` 
