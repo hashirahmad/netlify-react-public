@@ -20,6 +20,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 ## 19-02-2020
 1. `SimpleCard`'s `text` typography component changed from `p` to `div` which allows `text` to be more roubust component as `p` is more limiting.
 2. Backspace speed animation in `TypeWriter` increased to 3 from -1 being the default speed.
+3. `CMS` added for `MyStory` screen to show "real" and "actual" story with full typing animation and effects. 
 
 ## 18-02-2020
 1. `safeColor` functionality removed from `Colors` due to `circular reference` 
