@@ -24,6 +24,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 4. `ReRender` component added
 5. Basically it is a safer way to `rerender` without having to use `forceRender` functionality
 6. Added `ReRender` as `reRender` in `Utils` library
+7. Added internal `random key` to `TypeWriter` as required by React
 
 ## 18-02-2020
 1. `safeColor` functionality removed from `Colors` due to `circular reference` 
