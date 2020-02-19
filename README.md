@@ -31,6 +31,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 11. Added `key={ Math.random() }` to a `list` as React complains too much when an `element` in a list does not have unique `key`.
 12. The merit of using `key={ Math.random() }` is debatable because it makes impossible to identify the react `element` using unique key for any purposes.
 13. Added `key={ Math.random() }` to `More.js` screen as I forgot to add.
+14. Changed `Projects` screen to `Work Experience` screen
 
 ## 18-02-2020
 1. `safeColor` functionality removed from `Colors` due to `circular reference` 
