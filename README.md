@@ -28,6 +28,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
 8. Disabling rereading story feature as `react-typing-animation` needs to support `reset` functionality internally.
 9. Developing custom solution is not a high priority myself nor something of recommendation.
 10. Fixed a bug in `getBottomAppBarPath` in `Routes.js` where if a `route` is in "home" than return home icon
+11. Added `key={ Math.random() }` to a `list` as React complains too much when an `element` in a list does not have unique `key`.
+12. The merit of using `key={ Math.random() }` is debatable because it makes impossible to identify the react `element` using unique key for any purposes.
 
 ## 18-02-2020
 1. `safeColor` functionality removed from `Colors` due to `circular reference` 
