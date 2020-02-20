@@ -25,6 +25,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 <br>`MyStoryCMS`, <br>`ChangeTheme`, <br>`MoreCMS`, <br>`ProjectsCMS`
 5. `getCardActions` of `Utils` now supports `open in new tab` feature where any external link is opened in a new tab.
 6. Subtle changes to `ProjectsCMS`
+7. Updated `Routes` inline with the new content added to `ProjectCMS`
 
 ## 19-02-2020
 1. `SimpleCard`'s `text` typography component changed from `p` to `div` which allows `text` to be more roubust component as `p` is more limiting.
