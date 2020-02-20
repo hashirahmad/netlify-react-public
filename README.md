@@ -19,7 +19,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 
 ## 20-02-2020
 1. Changes made to `standardizeText` function of `Utils` to add a space character at the end of each line so that `CMS` `array` of `text` does not have to conatain an extra ` ` space at the end of each line in an `array`.
-2. 
+2. `SimpleCard`'s `text` now `aligned` to left as oppose to center.
 
 ## 19-02-2020
 1. `SimpleCard`'s `text` typography component changed from `p` to `div` which allows `text` to be more roubust component as `p` is more limiting.
