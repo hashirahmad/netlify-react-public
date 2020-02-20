@@ -21,6 +21,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
 1. Changes made to `standardizeText` function of `Utils` to add a space character at the end of each line so that `CMS` `array` of `text` does not have to conatain an extra ` ` space at the end of each line in an `array`.
 2. `SimpleCard`'s `text` now `aligned` to left as oppose to center.
 3. Added icon support for `SimpleCard` using `mainIcon`.
+4. `CMS` changed for various screens to benefit from icon support available in `SimpleCard`. Following screeens have benefited from ^ above ^ feature: 
+<br>`MyStoryCMS`, <br>`ChangeTheme`, <br>`MoreCMS`, <br>`ProjectsCMS`
 
 ## 19-02-2020
 1. `SimpleCard`'s `text` typography component changed from `p` to `div` which allows `text` to be more roubust component as `p` is more limiting.
