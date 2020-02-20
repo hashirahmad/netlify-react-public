@@ -31,6 +31,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 10. Refined or rather added some comments to main `App.js` and renamed some variable names for cleaner code.
 11. Added `ComplexCardList` component to be used in `CorporateExperiences` screen or rather useful in that respect.
 12. `ComplexCard`'s `action` buttons now wrap around in a fluid way and pleasant to eyes. This is useful when there are more than 2 buttons when it would previously try to compact everything and hold it in one row.
+13. Added `min-width` equal to `max-width` to `ComplexCard` so it looks evened out in terms of `width`.
 
 ## 19-02-2020
 1. `SimpleCard`'s `text` typography component changed from `p` to `div` which allows `text` to be more roubust component as `p` is more limiting.
