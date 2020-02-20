@@ -35,6 +35,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 14. `CorporateExperiences` screen updated with real content.
 15. `CMS` content added.
 16. Added pictures related to content too.
+17. Updated some `CorporateExperiencesCMS` content.
 
 ## 19-02-2020
 1. `SimpleCard`'s `text` typography component changed from `p` to `div` which allows `text` to be more roubust component as `p` is more limiting.
