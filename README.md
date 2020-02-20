@@ -29,6 +29,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 8. Added `CorporateExperiences` screen, bare skeleton
 9. Added releveant `CorporateExperiencesCMS` for use later on today
 10. Refined or rather added some comments to main `App.js` and renamed some variable names for cleaner code.
+11. Added `ComplexCardList` component to be used in `CorporateExperiences` screen or rather useful in that respect.
 
 ## 19-02-2020
 1. `SimpleCard`'s `text` typography component changed from `p` to `div` which allows `text` to be more roubust component as `p` is more limiting.
