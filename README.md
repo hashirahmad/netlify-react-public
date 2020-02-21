@@ -24,6 +24,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 4. `Wrapping` the entire app inside the `InAppBrowser` to benefit from its functionality inside the entire app using its `API` or rather one function more easily rather than having to place `InAppBrowser` on individual screens manually.
 5. The merits of this approach is debatable, whether a good idea or terrible idea.
 6. Added `Keys` component - this is very much a `JSON` file containing reference keys used for `LocalStorage`. NOT TO BE CONFUSED WITH SECURITY/API keys
+7. `Themes` now internally uses `Keys` component. Allows very much central one place control. 
 
 ## 20-02-2020
 1. Changes made to `standardizeText` function of `Utils` to add a space character at the end of each line so that `CMS` `array` of `text` does not have to conatain an extra ` ` space at the end of each line in an `array`.
