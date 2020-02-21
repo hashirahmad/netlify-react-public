@@ -21,7 +21,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
 1. Added `InAppBrowser` component.
 2. The main motivation for it's creation is to serve external links or media inside the app. 
 3. This is useful so that vistors stay inside the app even if viewing external content - basic idea is so keep them inside the app plus gives a little more control.
-4. 
+4. `Wrapping` the entire app inside the `InAppBrowser` to benefit from its functionality inside the entire app using its `API` or rather one function more easily rather than having to place `InAppBrowser` on individual screens manually.
+5. The merits of this approach is debatable, whether a good idea or terrible idea.
 
 ## 20-02-2020
 1. Changes made to `standardizeText` function of `Utils` to add a space character at the end of each line so that `CMS` `array` of `text` does not have to conatain an extra ` ` space at the end of each line in an `array`.
