@@ -17,6 +17,12 @@ I do not wish at the present moment to reveal the source code for personal reaso
  3. Third task
  4. etc . . .
 
+## 21-02-2020
+1. Added `InAppBrowser` component.
+2. The main motivation for it's creation is to serve external links or media inside the app. 
+3. This is useful so that vistors stay inside the app even if viewing external content - basic idea is so keep them inside the app plus gives a little more control.
+4. 
+
 ## 20-02-2020
 1. Changes made to `standardizeText` function of `Utils` to add a space character at the end of each line so that `CMS` `array` of `text` does not have to conatain an extra ` ` space at the end of each line in an `array`.
 2. `SimpleCard`'s `text` now `aligned` to left as oppose to center.
