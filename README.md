@@ -30,6 +30,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 10. Made changes to `getCardActions` of `Utils` to benefit from `InAppBrowser`'s `API` so that it opens external links in the `InAppBrowser` component.
 11. `allowExternally` property supported to allow it externally of course! - This is useful particularly when URL does not allow/support `iframes`.
 12. Made changes to `ProjectsCMS` to benefit from `allowExternally` property where GitHub's link would be opened in a new tab as oppose to `InAppBrowser`.
+13. `CorporateExperiencesCMS` updated with `link` icons to be replaced with `open_in_browser` icons as it excactly the icon for `InAppBrowser`.
 
 ## 20-02-2020
 1. Changes made to `standardizeText` function of `Utils` to add a space character at the end of each line so that `CMS` `array` of `text` does not have to conatain an extra ` ` space at the end of each line in an `array`.
