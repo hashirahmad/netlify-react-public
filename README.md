@@ -29,6 +29,9 @@ I do not wish at the present moment to reveal the source code for personal reaso
 9. `Utils` also updated to benefit from internal `API` rather than relying on `window` object.
 10. Added a `LongContentDialog` component which of course support easy programmatic use via internal `API` throughtout the entire app. 
 11. No need of having to place `LongContentDialog` indvidually on each screen - it is placed centrally and can envoked easily using the internal `API`.
+12. Added a custom ` React Hook` - still do not fully understand it yet. It is called `UseFunctionAsState`.
+13. This allows setting functions for dynamic clicking of button. Usually `React.useState( () => { ... }` would work and it does work but not in the way I expect. This way function will run immediatley as the function is set however `React.useState( () => { ... }` returns the value of function not returning the actual function itself.
+14. Custom hooks are meant for this sort of thing. I use it and it work but not quite fully understand the depth of technicality.
 
 ## 21-02-2020
 1. Added `InAppBrowser` component.
