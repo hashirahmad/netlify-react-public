@@ -27,6 +27,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
 7. `InAppBrowser` updated to use internal `API` and require no longer any reliance on `global` `window` object.
 8. Also removed `bloated` code.
 9. `Utils` also updated to benefit from internal `API` rather than relying on `window` object.
+10. Added a `LongContentDialog` component which of course support easy programmatic use via internal `API` throughtout the entire app. 
+11. No need of having to place `LongContentDialog` indvidually on each screen - it is placed centrally and can envoked easily using the internal `API`.
 
 ## 21-02-2020
 1. Added `InAppBrowser` component.
