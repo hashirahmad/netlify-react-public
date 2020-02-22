@@ -17,6 +17,9 @@ I do not wish at the present moment to reveal the source code for personal reaso
  3. Third task
  4. etc . . .
 
+## 22-02-2020
+1. Added google analytics to site
+
 ## 21-02-2020
 1. Added `InAppBrowser` component.
 2. The main motivation for it's creation is to serve external links or media inside the app. 
