@@ -18,7 +18,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
  4. etc . . .
 
 ## 22-02-2020
-1. Added google analytics to site
+1. Added google analytics to site.
+2. Changed Work Diary's pdf `Drive`'s link so it is embded.
 
 ## 21-02-2020
 1. Added `InAppBrowser` component.
