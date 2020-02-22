@@ -20,6 +20,11 @@ I do not wish at the present moment to reveal the source code for personal reaso
 ## 22-02-2020
 1. Added google analytics to site.
 2. Changed Work Diary's pdf `Drive`'s link so it is embded.
+3. Created internal `API` for internal use.
+4. The main idea is to expose `React Hooks API` of components centrally to other components that may not be linked in any other way.
+5. With the use of internal `API` - Indvidual components' `API` is no longer relient on `window` object.
+6. This also means that it is no longer exposed using `Developer Tools` at least not easily. Furthermore the concept of validating for the `key` when using `window["function"]` is no longer required or neccessary.
+7. 
 
 ## 21-02-2020
 1. Added `InAppBrowser` component.
