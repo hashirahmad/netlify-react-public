@@ -32,6 +32,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 12. Added a custom ` React Hook` - still do not fully understand it yet. It is called `UseFunctionAsState`.
 13. This allows setting functions for dynamic clicking of button. Usually `React.useState( () => { ... }` would work and it does work but not in the way I expect. This way function will run immediatley as the function is set however `React.useState( () => { ... }` returns the value of function not returning the actual function itself.
 14. Custom hooks are meant for this sort of thing. I use it and it work but not quite fully understand the depth of technicality.
+15. Added a `FullScreenDialog` that is responsive which also uses  `UseFunctionAsState` to fully work as planned. As `LongContentDialog` it can easily be envoked using internal `API`.
 
 ## 21-02-2020
 1. Added `InAppBrowser` component.
