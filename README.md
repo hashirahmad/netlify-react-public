@@ -21,6 +21,9 @@ I do not wish at the present moment to reveal the source code for personal reaso
 1. Changed some structure of the `InAppBrowser` so it does not need to be wrapped around for everything. It is just now used very much like `LongContentDialog`.
 2. Added a `RunOnEveryUrlChange` component. This is useful for change root level components from children and many more purposes. 
 3. Changed `PageTitle` to benefit from `RunOnEveryUrlChange`.
+4. Added a `CookieConscent` component that will ask for cookie conscent one-time. 
+5. I know many websites which will ask for permission every single session.
+6. This `CookieConscent` component will be one-off and until user resets browser or manually detele cookies - the conscent will never ask again.
 
 ## 22-02-2020
 1. Added google analytics to site.
