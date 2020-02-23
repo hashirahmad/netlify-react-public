@@ -17,6 +17,9 @@ I do not wish at the present moment to reveal the source code for personal reaso
  3. Third task
  4. etc . . .
 
+## 23-02-2020
+1. Changed some structure of the `InAppBrowser` so it does not need to be wrapped around for everything. It is just now used very much like `LongContentDialog`.
+
 ## 22-02-2020
 1. Added google analytics to site.
 2. Changed Work Diary's pdf `Drive`'s link so it is embded.
