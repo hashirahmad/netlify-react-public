@@ -20,6 +20,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 ## 23-02-2020
 1. Changed some structure of the `InAppBrowser` so it does not need to be wrapped around for everything. It is just now used very much like `LongContentDialog`.
 2. Added a `RunOnEveryUrlChange` component. This is useful for change root level components from children and many more purposes. 
+3. Changed `PageTitle` to benefit from `RunOnEveryUrlChange`.
 
 ## 22-02-2020
 1. Added google analytics to site.
