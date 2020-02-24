@@ -28,6 +28,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 8. Added relevant `CMS` for it.
 9. Updated `Routes` accordingly.
 10. Fixed a bug for `Linear` progress bar component where it would hide very after `rendering` because there is no immediate need for it to be shown. This is a design flaw or not the right way. At this point I have not yet found a "right" approach hencing fall for what works as last resort.
+11. Made minor fixes to `CMS` namely `ProjectsCMS` and `SideProjectsCMS`.
 
 ## 23-02-2020
 1. Changed some structure of the `InAppBrowser` so it does not need to be wrapped around for everything. It is just now used very much like `LongContentDialog`.
