@@ -29,6 +29,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 4. Added a `CookieConscent` component that will ask for cookie conscent one-time. 
 5. I know many websites which will ask for permission every single session.
 6. This `CookieConscent` component will be one-off and until user resets browser or manually delete cookies - the conscent will never ask again.
+7. Added `GitHubReadMe` component for showing `readme` of Github for side projects.
 
 ## 22-02-2020
 1. Added google analytics to site.
