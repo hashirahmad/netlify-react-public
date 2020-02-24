@@ -23,6 +23,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 3. Made internal changes to `Linear` progress bar - mainly when turning `on` or `off` and checking if the `DOM` actually exists. This problem happens around when page loading and `API` is turning it `on`.
 4. Added `GitHubReadMe` component for showing `readme` of Github for side projects.
 5. Added support for `GitHubReadMe` for `getCardActions` so that `card`'s read me button opens `LongContentDialog` opening up `Read Me` of the github.
+6. Fixed a bug of setting `display: 'none'` to `Linear` component.
 
 ## 23-02-2020
 1. Changed some structure of the `InAppBrowser` so it does not need to be wrapped around for everything. It is just now used very much like `LongContentDialog`.
