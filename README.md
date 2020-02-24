@@ -19,6 +19,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
  
 ## 24-02-2020
 1. `Linear` progress `API` now integrated with internal `API` for full control of turning it on and off easily from entire app.
+2. `Linear` progress bar by default now invisible as before running openly.
 
 ## 23-02-2020
 1. Changed some structure of the `InAppBrowser` so it does not need to be wrapped around for everything. It is just now used very much like `LongContentDialog`.
