@@ -17,6 +17,10 @@ I do not wish at the present moment to reveal the source code for personal reaso
  3. Third task
  4. etc . . .
  
+## 25-02-2020
+1. Added image support for `SimpleCard`.
+2. Padding at the top is now set to 0, previously it was `16px` which was far too unecessary.
+ 
 ## 24-02-2020
 1. `Linear` progress `API` now integrated with internal `API` for full control of turning it on and off easily from entire app.
 2. `Linear` progress bar by default now invisible as before running openly.
