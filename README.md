@@ -49,6 +49,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
 13. Removed `horizontal scroll bar`.
 14. Decreased overall height of the `LongContentDialog` so that it does not takes 100% of the height or close to it. 
 15. `Utils`'s `getCardActions` updated with the icon support so it can benefit from the new feature.
+16. Added `SnackbarOne` component. It can be accessed from internal `API` as usual. 
+17. It is a "one-off" component - this means it needs to be just defined in the main `app` once and can than be used pretty much across the entire app with easy to use internal `API`.
 
 ## 23-02-2020
 1. Changed some structure of the `InAppBrowser` so it does not need to be wrapped around for everything. It is just now used very much like `LongContentDialog`.
