@@ -27,6 +27,10 @@ I do not wish at the present moment to reveal the source code for personal reaso
 7. `getCardActions` of `Utils` now offically supports `title` as oppose to relying on the `text` property. 
 8. `title` is directly injected into `getCardActions` which is whatever the `Card`'s title is.
 9. This does mean that if a particular card has more than one `InAppBrowser` instances on a click - all of them will have the same `title` which is fine because it is all part of that `Card`'s title.
+10. Added content to `MyNotebookOfLife` screen.
+11. Added relevant `CMS` for easy updating of content.
+12. Made changes to `SimpleCard` that would run specifed function of `Utils` for the image URL - this is at the moment only needed for 13. Medium's content where I can easily enter uncomperessed image URL in `CMS` and the desired function of `utils` will return a URL whose image is compressed.
+14. Added `mediumSmallUrl` to `Utils` which is the function that does literally adds some parameters for width and height to return a smaller image.
  
 ## 24-02-2020
 1. `Linear` progress `API` now integrated with internal `API` for full control of turning it on and off easily from entire app.
