@@ -32,6 +32,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
 12. Made changes to `SimpleCard` that would run specifed function of `Utils` for the image URL - this is at the moment only needed for.
 13. Medium's content where I can easily enter uncomperessed image URL in `CMS` and the desired function of `utils` will return a URL whose image is compressed.
 14. Added `mediumSmallUrl` to `Utils` which is the function that does literally adds some parameters for width and height to return a smaller image.
+15. Added `SnackbarOne` component. It can be accessed from internal `API` as usual. 
+16. It is a "one-off" component - this means it needs to be just defined in the main `app` once and can than be used pretty much across the entire app with easy to use internal `API`.
  
 ## 24-02-2020
 1. `Linear` progress `API` now integrated with internal `API` for full control of turning it on and off easily from entire app.
@@ -49,8 +51,6 @@ I do not wish at the present moment to reveal the source code for personal reaso
 13. Removed `horizontal scroll bar`.
 14. Decreased overall height of the `LongContentDialog` so that it does not takes 100% of the height or close to it. 
 15. `Utils`'s `getCardActions` updated with the icon support so it can benefit from the new feature.
-16. Added `SnackbarOne` component. It can be accessed from internal `API` as usual. 
-17. It is a "one-off" component - this means it needs to be just defined in the main `app` once and can than be used pretty much across the entire app with easy to use internal `API`.
 
 ## 23-02-2020
 1. Changed some structure of the `InAppBrowser` so it does not need to be wrapped around for everything. It is just now used very much like `LongContentDialog`.
