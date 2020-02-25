@@ -20,6 +20,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
 ## 25-02-2020
 1. Added image support for `SimpleCard`.
 2. Padding at the top is now set to 0, previously it was `16px` which was far too unecessary.
+3. `imageTitle` of `SimpleCard` by deafult will be whatever is `boldStatement`
+4. Added support for picture heavy card by adjusting `padding` and `margin` at the bottom.
  
 ## 24-02-2020
 1. `Linear` progress `API` now integrated with internal `API` for full control of turning it on and off easily from entire app.
