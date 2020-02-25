@@ -24,6 +24,9 @@ I do not wish at the present moment to reveal the source code for personal reaso
 4. Added support for picture heavy card by adjusting `padding` and `margin` at the bottom.
 5. `Utils`'s `getCardActions` support `title` parameter which is useful for both `InAppBrowser` and `LongContentDialog`. 
 6. Does not break it because if `title` is not provided, it falls back to `text` which is required anyway.
+7. `getCardActions` of `Utils` now offically supports `title` as oppose to relying on the `text` property. 
+8. `title` is directly injected into `getCardActions` which is whatever the `Card`'s title is.
+9. This does mean that if a particular card has more than one `InAppBrowser` instances on a click - all of them will have the same `title` which is fine because it is all part of that `Card`'s title.
  
 ## 24-02-2020
 1. `Linear` progress `API` now integrated with internal `API` for full control of turning it on and off easily from entire app.
