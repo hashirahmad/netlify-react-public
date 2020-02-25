@@ -36,6 +36,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 16. It is a "one-off" component - this means it needs to be just defined in the main `app` once and can than be used pretty much across the entire app with easy to use internal `API`.
 17. Added `copyTextToClipboard` to `Utils` for easu coping of links.
 18. Added support for copying to `getCardActions` of `Utils`.
+19. Updated `MyNotebookOfLife`'s `CMS` to benefit from `copyTextToClipboard` functionality by letting users share the article URL easily wherever they want to use it.
  
 ## 24-02-2020
 1. `Linear` progress `API` now integrated with internal `API` for full control of turning it on and off easily from entire app.
