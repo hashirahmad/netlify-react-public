@@ -34,6 +34,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
 14. Added `mediumSmallUrl` to `Utils` which is the function that does literally adds some parameters for width and height to return a smaller image.
 15. Added `SnackbarOne` component. It can be accessed from internal `API` as usual. 
 16. It is a "one-off" component - this means it needs to be just defined in the main `app` once and can than be used pretty much across the entire app with easy to use internal `API`.
+17. Added `copyTextToClipboard` to `Utils` for easu coping of links.
+18. Added support for copying to `getCardActions` of `Utils`.
  
 ## 24-02-2020
 1. `Linear` progress `API` now integrated with internal `API` for full control of turning it on and off easily from entire app.
