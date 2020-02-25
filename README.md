@@ -37,7 +37,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 17. Added `copyTextToClipboard` to `Utils` for easu coping of links.
 18. Added support for copying to `getCardActions` of `Utils`.
 19. Updated `MyNotebookOfLife`'s `CMS` to benefit from `copyTextToClipboard` functionality by letting users share the article URL easily wherever they want to use it.
-20. Added generic icon for articles for `MyNotebookOfLife` screen. Originally wanted cusomised icons for each article but there are not enough icons at the moment to describe icons so just using default icon.
+20. Added generic icon for articles for `MyNotebookOfLife` screen. Originally wanted customised icons for each article but there are not enough icons at the moment to describe icons so just using default icon.
  
 ## 24-02-2020
 1. `Linear` progress `API` now integrated with internal `API` for full control of turning it on and off easily from entire app.
