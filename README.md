@@ -23,6 +23,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 3. Finally managed to virtualise `SimpleCardList` using `react-tiny-virtual-list` the way how I wanted to so that it appends the new content underneath the current content and not doing too much rendering without any duplication of initial set of data. The rerendering still happens but in managable way and is only noticable due to image being reloaded again. Overall it is a good effort.
 4. A bug fixed which would initiate progress bar to open unintentionally.
 5. `CustomTypography` now support aligning of text - before it would simply just stick to the left side.
+6. Fixed a bug in `Linear` progress bar where `on` and `off` would utilize a `class` which would turn off other progress bars too.
 
 ## 26-02-2020
 
