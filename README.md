@@ -21,6 +21,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 1. Added `animateForSecs` option to `Linear` progress bar for fake animations or when the to show "subtle" progress but the sort of progress which is not predictable or `callback` is not available or possible. 
 2. Small bug fixed in `SimpleCard` component where having `paddingTop: 0` would result into sligh visual annoyance and `paddingTop: 1` fixes it.
 3. Finally managed to virtualise `SimpleCardList` using `react-tiny-virtual-list` the way how I wanted to so that it appends the new content underneath the current content and not doing too much rendering without any duplication of initial set of data. The rerendering still happens but in managable way and is only noticable due to image being reloaded again. Overall it is a good effort.
+4. A bug fixed which would initiate progress bar to open unintentionally.
 
 ## 26-02-2020
 
