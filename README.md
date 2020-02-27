@@ -17,6 +17,9 @@ I do not wish at the present moment to reveal the source code for personal reaso
  3. Third task
  4. etc . . .
 
+## 27-02-2020
+1. Added `animateForSecs` option to `Linear` progress bar for fake animations or when the to show "subtle" progress but the sort of progress which is not predictable or `callback` is not available or possible. 
+
 ## 26-02-2020
 
 1. Tried to virtualize the `SimpleCardList` so that no matter how big the list
