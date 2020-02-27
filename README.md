@@ -16,7 +16,24 @@ I do not wish at the present moment to reveal the source code for personal reaso
  2. Second task
  3. Third task
  4. etc . . .
- 
+
+## 26-02-2020
+
+1. Tried to virtualize the `SimpleCardList` so that no matter how big the list
+may be - performance is not impacted in any negative way.
+2. Tried `react-virtualized`, `react-infinite-scroll-component` and `react-tiny-virtual-list`.
+3. The main problem with them is that they constantly rerender and with `list` being very heavy
+in terms of image urls, performance is hit quite hard. Most of these are generally aimed at
+creating only long list of tabular or any other data but not anything which fetches images
+for each child.
+4. `react-infinite-scroll-component` is almost perfect except that it duplicates first set twice
+and then loads the rest of data smoothly morealess.
+5. Ideally `react-virtualized` is most complete package but would require significant customisation
+to fit exactly my needs.
+6. After a day of trying different solutions and ideas offered on stack overflow - what I want to do is apppend
+the new content towards the bottom of the screen and I can think of ways but they require certain level of hacking
+the packages in ways not intended or very much developing complete bespoke solution.
+
 ## 25-02-2020
 1. Added image support for `SimpleCard`.
 2. Padding at the top is now set to 0, previously it was `16px` which was far too unecessary.
