@@ -27,6 +27,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
 `Dashboard` content is quite different and unique than before so it made sense to design it first with hand than putting it first in `CMS`. 
 7. Had I first tried to put it in `CMS` - I would probably still be trying to figure out a way to do it. 
 8. Early optimization is the root of all evil.
+9. Added content to `OtherExperiences` screen.
+10. Added corresponding `CMS` for it.
 
 ## 27-02-2020
 1. Added `animateForSecs` option to `Linear` progress bar for fake animations or when the to show "subtle" progress but the sort of progress which is not predictable or `callback` is not available or possible. 
