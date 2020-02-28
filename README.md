@@ -29,6 +29,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
 8. Early optimization is the root of all evil.
 9. Added content to `OtherExperiences` screen.
 10. Added corresponding `CMS` for it.
+11. Added `Dashboard` component. Inially it was limited to `Dashboard` screen but now I need to use it for `My Education` screen too.
+12. `Dashboard` screen now uses `Dashboard` component. 
 
 ## 27-02-2020
 1. Added `animateForSecs` option to `Linear` progress bar for fake animations or when the to show "subtle" progress but the sort of progress which is not predictable or `callback` is not available or possible. 
