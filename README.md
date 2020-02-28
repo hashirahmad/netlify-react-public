@@ -17,6 +17,10 @@ I do not wish at the present moment to reveal the source code for personal reaso
  3. Third task
  4. etc . . .
 
+## 28-02-2020
+1. Added linear `Bar` component. Previously `Linear` component was actually designed too heavily for the animation of the bottom progress bar. Basically it ended up being bespoke component.
+2. Added `TextBar` component - basically when want to show progress of something with text on left and progress `Bar` on the right and additional tooltip for actual values. 
+
 ## 27-02-2020
 1. Added `animateForSecs` option to `Linear` progress bar for fake animations or when the to show "subtle" progress but the sort of progress which is not predictable or `callback` is not available or possible. 
 2. Small bug fixed in `SimpleCard` component where having `paddingTop: 0` would result into sligh visual annoyance and `paddingTop: 1` fixes it.
