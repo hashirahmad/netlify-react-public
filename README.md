@@ -36,6 +36,8 @@ I do not wish at the present moment to reveal the source code for personal reaso
 15. Safety measure checks in `standardizeText`  of `Utils`.
 16. `Dashboard` component's functional name was different due to CTRL+C so now it is actually Dashboard.
 17. `Dashboard` component now allows text to be aligned other than being `center` as in certain circumstances - `it needs` to be left aligned. By default it is `center` so existing code does not need to be changed if not needed.
+18. `EducationalExperiences` screen added.
+19. `CMS` added and it benefits from `Dashboard` component significantly.
 
 ## 27-02-2020
 1. Added `animateForSecs` option to `Linear` progress bar for fake animations or when the to show "subtle" progress but the sort of progress which is not predictable or `callback` is not available or possible. 
