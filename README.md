@@ -22,6 +22,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 2. Added `TextBar` component - basically when want to show progress of something with text on left and progress `Bar` on the right and additional tooltip for actual values. 
 3. Added `Dashboard` screen leveraging the use of newly added components.
 4. Fixed a bug in `Bar` component in regards to where setting 100 value would not work. Animations are now much faster and little more realistic.
+5. Finalised the content of `Dashboard` screen.
 
 ## 27-02-2020
 1. Added `animateForSecs` option to `Linear` progress bar for fake animations or when the to show "subtle" progress but the sort of progress which is not predictable or `callback` is not available or possible. 
