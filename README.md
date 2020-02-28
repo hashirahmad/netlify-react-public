@@ -33,6 +33,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 12. `Dashboard` screen now uses `Dashboard` component. 
 13. `Dashboard`'s text for `SimpleCard` can now be `standardized` using `standardizeText`. 
 14. `standardizing` for `SimpleCard` in `Dashboard` was not neccessary as `RobotoFont` used already takes care of that functionality underneath. Something which I developed and completely forgot about! hmmmm. 
+15. Safety measure checks in `standardizeText`  of `Utils`.
 
 ## 27-02-2020
 1. Added `animateForSecs` option to `Linear` progress bar for fake animations or when the to show "subtle" progress but the sort of progress which is not predictable or `callback` is not available or possible. 
