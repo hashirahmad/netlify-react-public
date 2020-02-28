@@ -23,6 +23,10 @@ I do not wish at the present moment to reveal the source code for personal reaso
 3. Added `Dashboard` screen leveraging the use of newly added components.
 4. Fixed a bug in `Bar` component in regards to where setting 100 value would not work. Animations are now much faster and little more realistic.
 5. Finalised the content of `Dashboard` screen.
+6. The contents of `Dashboard` is now fully `CMS`ified for easy updating of content without changing the the logic aspect.
+`Dashboard` content is quite different and unique than before so it made sense to design it first with hand than putting it first in `CMS`. 
+7. Had I first tried to put it in `CMS` - I would probably still be trying to figure out a way to do it. 
+8. Early optimization is the root of all evil.
 
 ## 27-02-2020
 1. Added `animateForSecs` option to `Linear` progress bar for fake animations or when the to show "subtle" progress but the sort of progress which is not predictable or `callback` is not available or possible. 
