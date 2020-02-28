@@ -20,6 +20,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 ## 28-02-2020
 1. Added linear `Bar` component. Previously `Linear` component was actually designed too heavily for the animation of the bottom progress bar. Basically it ended up being bespoke component.
 2. Added `TextBar` component - basically when want to show progress of something with text on left and progress `Bar` on the right and additional tooltip for actual values. 
+3. Added `Dashboard` screen leveraging the use of newly added components.
 
 ## 27-02-2020
 1. Added `animateForSecs` option to `Linear` progress bar for fake animations or when the to show "subtle" progress but the sort of progress which is not predictable or `callback` is not available or possible. 
