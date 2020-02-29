@@ -20,6 +20,9 @@ I do not wish at the present moment to reveal the source code for personal reaso
 ## 29-02-2020
 1. Updated the contents of `Side Projects` and `MyNotebookOfLife` screen and relevant `CMS`(s).
 2. `Search` screen shows working progress `card` - it will require a considerable work.
+3. Added `margin-bottom: 3px` to the `card`'s buttons.
+4. Enchanced the logic in `Utils`'s `getCardActions` to support more options without changing other code anywhere else.
+5. `SimpleCardList` now can take a bespoke list of `SimpleCard`s which makes sense when there is complex logic needs to be done to the buttons - that cannot be done from `CMS` without complicating it.
 
 ## 28-02-2020
 1. Added linear `Bar` component. Previously `Linear` component was actually designed too heavily for the animation of the bottom progress bar. Basically it ended up being bespoke component.
