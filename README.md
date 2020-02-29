@@ -24,6 +24,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 4. Enhanced the logic in `Utils`'s `getCardActions` to support more options without changing other code anywhere else.
 5. `SimpleCardList` now can take a bespoke list of `SimpleCard`s which makes sense when there is complex logic needs to be done to the buttons - that cannot be done from `CMS` without complicating it.
 6. `SimpleCard` and `ComplexCard` buttons are now `text` before it was `outlined`.
+7. Added icons to missing `card` buttons for clarity to `Projects` screen.
 
 ## 28-02-2020
 1. Added linear `Bar` component. Previously `Linear` component was actually designed too heavily for the animation of the bottom progress bar. Basically it ended up being bespoke component.
