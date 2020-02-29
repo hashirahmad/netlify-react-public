@@ -17,6 +17,9 @@ I do not wish at the present moment to reveal the source code for personal reaso
  3. Third task
  4. etc . . .
 
+## 29-02-2020
+1. Updated the contents of `Side Projects` and `MyNotebookOfLife` screen and relevant `CMS`(s).
+
 ## 28-02-2020
 1. Added linear `Bar` component. Previously `Linear` component was actually designed too heavily for the animation of the bottom progress bar. Basically it ended up being bespoke component.
 2. Added `TextBar` component - basically when want to show progress of something with text on left and progress `Bar` on the right and additional tooltip for actual values. 
