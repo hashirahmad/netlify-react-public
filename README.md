@@ -17,6 +17,9 @@ I do not wish at the present moment to reveal the source code for personal reaso
  3. Third task
  4. etc . . .
 
+## 01-03-2020
+1. Both `SimpleCard` and `ComplexCard` now support anchorisation or basically they can anchored by their title which means it comes in incredibly handy when refering to indvidual item.
+
 ## 29-02-2020
 1. Updated the contents of `Side Projects` and `MyNotebookOfLife` screen and relevant `CMS`(s).
 2. `Search` screen shows working progress `card` - it will require a considerable work.
