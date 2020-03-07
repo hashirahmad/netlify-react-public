@@ -19,6 +19,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 
 ## 07-03-2020
 1. Added a `WorkingProgress` component which can be used on any screen until the newly created screen is in development.
+2. `Search` screen now benefits from `WorkingProgress` component for easy integration and central control.
 
 ## 01-03-2020
 1. Both `SimpleCard` and `ComplexCard` now support anchorisation or basically they can anchored by their title which means it comes in incredibly handy when refering to indvidual item.
