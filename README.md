@@ -25,6 +25,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 5. Added `AutoSuggest` component.
 6. `Search` screen is now complete. It leverages the power of `AutoSuggest` to allow easy navigation to site from `Search` screen. 
 7. Updated `netlify.toml` file to `build` the correct way. 
+8. Added relevant content to `MyNotebookOfLife` screen. Basically updated `CMS`.
 
 ## 07-03-2020
 1. Added a `WorkingProgress` component which can be used on any screen until the newly created screen is in development.
