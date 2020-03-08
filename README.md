@@ -23,6 +23,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 3. Default theme is `influenza`.
 4. Removed `react-scrollable-anchor`.
 5. Added `AutoSuggest` component.
+6. `Search` screen is now complete. It leverages the power of `AutoSuggest` to allow easy navigation to site from `Search` screen. 
 
 ## 07-03-2020
 1. Added a `WorkingProgress` component which can be used on any screen until the newly created screen is in development.
