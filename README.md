@@ -22,6 +22,7 @@ I do not wish at the present moment to reveal the source code for personal reaso
 2. Instead it simply uses `Utils`'s `scrollToHashId` which is a lot more native and simple and straight forward. Works just as intended.
 3. Default theme is `influenza`.
 4. Removed `react-scrollable-anchor`.
+5. Added `AutoSuggest` component.
 
 ## 07-03-2020
 1. Added a `WorkingProgress` component which can be used on any screen until the newly created screen is in development.
