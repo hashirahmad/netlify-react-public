@@ -17,6 +17,16 @@ I do not wish at the present moment to reveal the source code for personal reaso
  3. Third task
  4. etc . . .
  
+## 15-03-2020
+1. I thought that maybe simply uploading the `build` folder would fix the problem but the problem still persists.
+2. Finally the issue appears to be - do not know whether this is the actual underlying issue **but** it does fix the source code issue
+3. In the `build` folder > `static` > `js` now I deleted the following files:
+   `2.060f7320.chunk.js.map`<br>
+   `main.e1b69f0b.chunk.js.map`<br>
+   `runtime-main.f8eed80e.js.map`<br>
+4. **Bingo!** This fixes the problem. My understanding is that these `map` files `map` the unminifed source code to actual understandable code or rather in the original intended way.
+5. In the `build` folder > `static` > `css` - there is `main.6cc95c4f.chunk.css.map`. This is for the `CSS` mapping.
+ 
 ## 14-03-2020
 1. Added more memoirs to my `MyNotebookOfLife` CMS.
 2. Currently iamhashir.netlify.com is bootstrapped with `netlify`'s `react boilerplate` and some additional netlify custom code mainly for the use of `lambda`. I thought that `ntelify`'s `react boilerplate` does not `build` properly or is doing something wrong or misconfigured. The reason I thought this was because - In `Chrome Dev Tools` > `Sources` > `static` and it will actually reveal the entire source code, `directory structure`, everything and all the source code is not `minified` so fully understandable. 
