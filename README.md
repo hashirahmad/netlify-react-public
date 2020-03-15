@@ -16,6 +16,12 @@ I do not wish at the present moment to reveal the source code for personal reaso
  2. Second task
  3. Third task
  4. etc . . .
+ 
+## 14-03-2020
+1. Added more memoirs to my `MyNotebookOfLife` CMS.
+2. Currently `iamhashir.netlify.com` is bootstrapped with `netlify`'s `react boilerplate` and some additional netlify custom code mainly for the use of `lambda`. I thought that `ntelify`'s `react boilerplate` does not `build` properly or is doing something wrong or misconfigured. The reason I thought this was because - In `Chrome Dev Tools` > `Sources` > `static` and it will actually reveal the entire source code, `directory structure`, everything and all the source code is not `minified` so fully understandable. 
+3. Now technically for this `iamhashir.netlify.com` - it really does not matter even if the source code is revealed because there is not much going on - however I have other plans which would pose this as a problem.
+4. Anyway - most of the time acually went into researching or finding out why it was behaving this way.
 
 ## 08-03-2020
 1. `ComplexCard` and `SimpleCard` no longer rely internally on `react-scrollable-anchor` as there are some bugs or it does not work the way I expect it. 
