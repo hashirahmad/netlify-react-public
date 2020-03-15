@@ -26,6 +26,9 @@ I do not wish at the present moment to reveal the source code for personal reaso
    `runtime-main.f8eed80e.js.map`<br>
 4. **Bingo!** This fixes the problem. My understanding is that these `map` files `map` the unminifed source code to actual understandable code or rather in the original intended way.
 5. In the `build` folder > `static` > `css` - there is `main.6cc95c4f.chunk.css.map`. This is for the `CSS` mapping.
+6. As always, there is always a better way and it can all be done what I just did manually by: 
+7. Using `postbuild` in `package.json` as `"postbuild": "rimraf build/**/*.map"` disables the source map automatically.
+8. ❤️ Stack overflow - it has saved more time and more problems than any other human probably, most likely.
  
 ## 14-03-2020
 1. Added more memoirs to my `MyNotebookOfLife` CMS.
