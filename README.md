@@ -17,6 +17,9 @@ I do not wish at the present moment to reveal the source code for personal reaso
  3. Third task
  4. etc . . .
  
+## 07-06-2020
+1. Updating side projects based to cover the ask-islam side project. 
+ 
 ## 15-03-2020
 1. I thought that maybe simply uploading the `build` folder would fix the problem but the problem still persists.
 2. Finally the issue appears to be - do not know whether this is the actual underlying issue **but** it does fix the source code issue
