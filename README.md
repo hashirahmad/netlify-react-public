@@ -3,6 +3,11 @@ It simply contains the commit history of the private `netlify-react`<br>
 ***This is a side project.*** <br>
 ***It is not production ready code***<br>
 
+## Demo
+
+- Link to **deprecated** [site](http://madebyhashir.netlify.app/)
+- No longer used and maintained.
+
 ## Why?
 To show the progress of private side project. <br> It help showcase what I am doing in my private time but without having to reveal the source code. <br>
 I do not wish at the present moment to reveal the source code for personal reasons.
